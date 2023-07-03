@@ -20,25 +20,25 @@ CheckMateUI is your strategic ally in the chess game of UI testing - delivering 
 These tasks are the most important and should be completed first. They are going to be the foundation of our UI testing strategy.
 
 ☑️ 🔃 Review project requirements and documentation. Explore UI designs in Figma, Adobe XD, etc.
-    ☑️ Explore project features based on designs, requirements, and documentation
-    ☑️ Study small decorative details from design mockups (if this help in future testing) 
-    ☑️ Learn how the layout changes when rebuilding on other screen resolutions (tablets, mobile and wide screens, if any)
-    ☑️ Ask questions to designers and product managers, if you have any doubts about some points
+- ☑️ Explore project features based on designs, requirements, and documentation
+- ☑️ Study small decorative details from design mockups (if this help in future testing) 
+- ☑️ Learn how the layout changes when rebuilding on other screen resolutions (tablets, mobile and wide screens, if any)
+- ☑️ Ask questions to designers and product managers, if you have any doubts about some points
 
 ## 2nd priority tasks
 
 These tasks are related to pixel-perfect markup checking. They are the next step in our UI testing strategy.
 
-☑️ 🔃 [desktop] Pixel-perfect markup checking
-☑️ 🔃 [tablet] Pixel-perfect markup checking
-☑️ 🔃 [mobile] Pixel-perfect markup checking
+- ☑️ 🔃 [desktop] Pixel-perfect markup checking
+- ☑️ 🔃 [tablet] Pixel-perfect markup checking
+- ☑️ 🔃 [mobile] Pixel-perfect markup checking
     
 ## 3rd priority tasks
 
 ☑️ 🔃 Checking interactive elements (popups, sliders, carousels, etc.).
-    ☑️ 
-    ☑️ 
-    ☑️ 
-    ☑️ 
-    ☑️ 
-    ☑️ 
+- ☑️ 
+- ☑️ 
+- ☑️ 
+- ☑️ 
+- ☑️ 
+- ☑️ 
