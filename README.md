@@ -2,13 +2,13 @@
 
 Welcome to CheckMateUI, your robust tool for comprehensive UI manual testing. This adaptable framework is tailored to meet your specific needs and works seamlessly with the Kanban method.
 
-**Note:** Items marked with the 🔃 symbol denote areas that require regular regression checks, helping to ensure that your UI stays up-to-date and flawless. Items without the symbol are considered as one-time tasks.
+**Note.** Items marked with the 🔃 symbol denote areas that require regular regression checks, helping to ensure that your UI stays up-to-date and flawless. Items without the symbol are considered as one-time tasks.
 
 CheckMateUI is your strategic ally in the chess game of UI testing - delivering a checkmate that leaves no room for errors!
 
 ## Table of Contents
 
-**Important** Consider priority just as an order of execution. For example, there is no point in checking all links if the page is under development (because we may not have all final URLs for links), it is better to check the layout and the main functionality first. This is why the tasks are divided into priority groups.
+**Important.** Consider priority just as an order of execution. For example, there is no point in checking all links if the page is under development (because we may not have all final URLs for links), it is better to check the layout and the main functionality first. This is why the tasks are divided into priority groups.
     
 - [1st priority tasks](#1st-priority-tasks)
 - [2nd priority tasks](#2nd-priority-tasks)
