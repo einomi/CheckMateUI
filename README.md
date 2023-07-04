@@ -2,13 +2,13 @@
 
 Welcome to CheckMateUI, an opinionated list of checklist items for comprehensive UI manual testing. This adaptable framework is tailored to meet your specific needs and works seamlessly with the Kanban method.
 
-‼️ **Note.** Items marked with the 🔃 symbol denote areas that require regular regression checks, helping to ensure that your UI stays up-to-date and flawless. Items without the symbol are considered as one-time tasks.
+‼️ **Note.** Items marked with the 🔃 symbol denote areas that require regular regression checks, helping to ensure that your UI stays up-to-date and flawless. Items without the symbol are considered one-time tasks.
 
 CheckMateUI is your strategic ally in the chess game of UI testing - delivering a checkmate that leaves no room for errors!
 
 ## Table of Contents
 
-‼️ **Important.** Consider priorities just as an order of execution. For example, there is no point in checking all links if the page is under development (because we may not have all final URLs for links), it is better to check the layout and the core functionality first. This is why the tasks are divided into priority groups.
+‼️ **Important.** Consider priorities just as an order of execution. For example, there is no point in checking all links if the page is under development (because we may not have all final URLs for links). It is better to check the layout and the core functionality first. This is why the tasks are divided into priority groups.
     
 - [1st priority tasks](#1st-priority-tasks)
 - [2nd priority tasks](#2nd-priority-tasks)
@@ -23,7 +23,7 @@ These tasks are the most important and should be completed first. They are going
 - Explore project features based on designs, requirements, and documentation.
 - Study small decorative details from design mockups (it may help in future testing).
 - Learn how the layout changes when rebuilding on other screen resolutions (tablets, mobile and wide screens, if any).
-- Ask questions to designers and product managers if you have any doubts about some points.
+- Ask designers and product managers questions if you have any doubts about some points.
 
 ## 2nd priority tasks
 
@@ -39,8 +39,8 @@ These tasks are related to pixel-perfect markup checking. They are the next step
 
 ✅ 🔃 Checking interactive elements (popups, sliders, carousels, etc.).
 - All interactive elements work as expected.
-- A click on the brand logo (in the header or in the footer for example) should lead to the main page of the site. On the main page, it should scroll to the beginning of the page (unless other mechanics are specified).
-- Check that the duration of hiding/closing interactive elements (for example, popups) is not too long (within 0.1-0.2s). The speed of appearance/opening of such elements can be longer (for example, 0.35-0.5s). This will improve the overall user experience with the UI.
+- A click on the brand logo (in the header or in the footer, for example) should lead to the site's main page. On the main page, it should scroll to the beginning of the page (unless other mechanics are specified).
+- Check that the duration of hiding/closing interactive elements (for example, popups) is short (within 0.1-0.2s). The speed of appearance/opening of such elements can be longer (for example, 0.35-0.5s). This approach will improve the overall user experience with the UI.
 - Draggable elements (e.g. carousels) must have an appropriate cursor on hover and drag (cursor: grab, cursor: grabbing).
 
 ✅ 🔃 Reduce the screen height to a minimum and check for vertical scrolling in popups, modals and other elements that can have their own scrollbar.
@@ -59,21 +59,21 @@ These tasks are related to pixel-perfect markup checking. They are the next step
 
 ✅ 🔃 Accessibility. Use the Lighthouse tool in Chrome Dev Tools to discover potential accessibility issues.
 
-✅ 🔃 Accessibility.  Ensure it is possible to use dropdowns, popups and other interactive elements with the keyboard.
+✅ 🔃 Accessibility. Ensure it is possible to use dropdowns, popups and other interactive elements with the keyboard.
 
 ✅ Resizing <textarea> should not break markup (check all textarea on the website).
 
 ## 4th priority tasks
 
 ✅ 🔃 Checking buttons and links.
-- All buttons, links work on all pages as expected.
-- All buttons and links have a proper cursor on hover (usually `pointer`).
-- Buttons on hover have a shorter transition duration. When retracting, a longer transition duration is allowed. This is done to make the site seem to respond more quickly to user actions.
-- Buttons/links that have an active state should have a default cursor and nothing should happen when clicking on such elements (an example of such element https://drive.google.com/file/d/1Vb1Ct-_Wm86Eah6Bskj-8rhbUh5iYbmN/view? usp=sharing).
-- Check that the text of the buttons cannot be selected with the mouse (to avoid text selection when double-clicking).
+- All buttons and links work on all pages as expected.
+- All buttons and links have a right cursor on hover (usually `pointer`).
+- Buttons on hover have a shorter transition duration. When retracting, a longer transition duration is allowed. This approach will make the site respond more quickly to user actions.
+- Buttons/links that have an active state should have a default cursor and nothing should happen when clicking on such elements. [An example of such an element](https://drive.google.com/file/d/1Vb1Ct-_Wm86Eah6Bskj-8rhbUh5iYbmN/view? usp=sharing).
+- Check that the buttons' text cannot be selected with the mouse (to avoid text selection when double-clicking).
 - For small buttons, the click area should be expanded. [Example](https://codesandbox.io/s/expanded-click-area-example-bltliu?file=/src/main.scss)
 - Buttons and links have standard :hover, :active states. These states should be noticeable (e.g. changing opacity from 1 to 0.9; won't work).
-- Links leading to external sites should open pages in a new tab so as not to take the user away from the page (`target="_blank"` attribute should be used). The same goes for `mailto` links.
+- Links leading to external sites should open pages in a new tab to avoid taking the user away from the page (setting the `target="_blank"` attribute will allow you to achieve such behaviour). The same goes for `mailto` links.
 
 ✅ 🔃 There is no horizontal scroll on all pages and at all resolutions (on touch devices, swipe right/left of the pages to check).
 
@@ -93,7 +93,7 @@ These tasks are related to pixel-perfect markup checking. They are the next step
 
 ✅ The <title> and <meta name="description"> tags have the correct content on all pages.
 
-✅ Page speed tested using Lighthouse tool in Chrome Dev Tools and here https://developers.google.com/speed/pagespeed/insights/. Invite developers to make changes based on the results of the review, guided by common sense.
+✅ Page speed tested using Lighthouse tool in Chrome Dev Tools and here https://developers.google.com/speed/pagespeed/insights/. Invite developers to make changes based on the review results, guided by common sense.
 
 ✅ Testing all pages in different browsers on different devices. 
 - [real device] MacBook Pro, Google Chrome – current version.
