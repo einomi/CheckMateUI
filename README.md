@@ -23,7 +23,7 @@ These tasks are the most important and should be completed first. They are going
 - Explore project features based on designs, requirements, and documentation.
 - Study small decorative details from design mockups (it may help in future testing).
 - Learn how the layout changes when rebuilding on other screen resolutions (tablets, mobile and wide screens, if any).
-- Ask questions to designers and product managers, if you have any doubts about some points.
+- Ask questions to designers and product managers if you have any doubts about some points.
 
 ## 2nd priority tasks
 
