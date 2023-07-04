@@ -45,7 +45,7 @@ These tasks are related to pixel-perfect markup checking. They are the next step
 
 ✅ 🔃 Reduce the screen height to a minimum and check for vertical scrolling in popups, modals and other elements that can have their own scrollbar.
 
-✅ 🔃 Checking the responsive design. Ensure the site looks great on popular screen resolutions: 320, 375, 568, 768, 1024, 1280, 1366, 1440, 1920, and 2560px. It is good to check the resolutions between these states by resizing the window. Also, it is helpful to set, for example, window widths of 1023px and 1024px or 767px and 768px, etc. - sometimes, there might be problems at the borders of breakpoints.
+✅ 🔃 Checking the responsive design. Ensure the site looks great on popular screen resolutions: 320, 375, 568, 768, 1024, 1280, 1366, 1440, 1920, and 2560px. It is good to check the resolutions between these states by resizing the window. Also, it is helpful to set, for example, window widths of 1023px and 1024px or 767px and 768px, etc. - sometimes, there might be issues at the borders of breakpoints.
 
 ✅ 🔃 Image sizes on the site are checked through the Network panel (Img tab) in Chrome Dev Tools. Approximate guidelines for image weights: for full-screen images - no more than 500-800kb; for all others - no more than 100-200kb. Ensure that the modern image formats (.webp, .avif) are used for all image assets. Also, recheck when images were replaced.
 
@@ -61,7 +61,7 @@ These tasks are related to pixel-perfect markup checking. They are the next step
 
 ✅ 🔃 Accessibility.  Ensure it is possible to use dropdowns, popups and other interactive elements with the keyboard.
 
-✅ Resizing <textarea> should not break markup (check all textarea on site).
+✅ Resizing <textarea> should not break markup (check all textarea on the website).
 
 ## 4th priority tasks
 
