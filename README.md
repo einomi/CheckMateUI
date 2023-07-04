@@ -93,7 +93,7 @@ These tasks are related to pixel-perfect markup checking. They are the next step
 
 ✅ The <title> and <meta name="description"> tags have the correct content on all pages.
 
-✅ Page speed tested using Lighthouse tool in Chrome Dev Tools and here https://developers.google.com/speed/pagespeed/insights/. Invite developers to make changes based on the review results, guided by common sense.
+✅ Page speed tested using Lighthouse tool in Chrome Dev Tools and using [PageSpeed Insights](https://pagespeed.web.dev/). Invite developers to make changes based on the review results, guided by common sense.
 
 ✅ Testing all pages in different browsers on different devices. 
 - [real device] MacBook Pro, Google Chrome – current version.
