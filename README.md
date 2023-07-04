@@ -69,7 +69,7 @@ These tasks are related to pixel-perfect markup checking. They are the next step
 - All buttons and links work on all pages as expected.
 - All buttons and links have a right cursor on hover (usually `pointer`).
 - Buttons on hover have a shorter transition duration. When retracting, a longer transition duration is allowed. This approach will make the site respond more quickly to user actions.
-- Buttons/links that have an active state should have a default cursor and nothing should happen when clicking on such elements. [An example of such an element](https://drive.google.com/file/d/1Vb1Ct-_Wm86Eah6Bskj-8rhbUh5iYbmN/view? usp=sharing).
+- Buttons/links that have an active state should have a default cursor and nothing should happen when clicking on such elements. [An example of such an element](https://drive.google.com/file/d/1Vb1Ct-_Wm86Eah6Bskj-8rhbUh5iYbmN/view).
 - Check that the buttons' text cannot be selected with the mouse (to avoid text selection when double-clicking).
 - For small buttons, the click area should be expanded. [Example](https://codesandbox.io/s/expanded-click-area-example-bltliu?file=/src/main.scss)
 - Buttons and links have standard :hover, :active states. These states should be noticeable (e.g. changing opacity from 1 to 0.9; won't work).
