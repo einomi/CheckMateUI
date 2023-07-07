@@ -81,7 +81,7 @@ These tasks are related to pixel-perfect markup checking. They are the next step
 
 ✅ 🔃 Check that a custom 404 page is displayed (and not the standard nginx/Apache, for example). Recheck the 404 page also on the production version of the site.
 
-✅ Favicon is added.
+✅ Favicon is added. [How to Favicon in 2023: Six files that fit most needs](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
 
 ✅ Webmanifest is added.
 
