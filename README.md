@@ -75,6 +75,11 @@ These tasks are related to pixel-perfect markup checking. They are the next step
 - Buttons and links have standard :hover, :active states. These states should be noticeable (e.g. changing opacity from 1 to 0.9; won't work).
 - Links leading to external sites should open pages in a new tab to avoid taking the user away from the page (setting the `target="_blank"` attribute will allow you to achieve such behaviour). The same goes for `mailto` links.
 
+✅ 🔃 Check all forms on the site.
+- All forms work as expected.
+- All forms have a submit button.
+- When submitting a form, there are no errors in the developer console.
+
 ✅ 🔃 There is no horizontal scroll on all pages and at all resolutions (on touch devices, swipe right/left of the pages to check).
 
 ✅ 🔃 There is no horizontal scroll on all pages and at all resolutions (on touch devices, swipe right/left of the pages to check).
