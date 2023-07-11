@@ -15,6 +15,22 @@ CheckMateUI is your strategic ally in the chess game of UI testing - delivering 
 - [3rd priority tasks](#3rd-priority-tasks)
 - [4th priority tasks](#4th-priority-tasks)
 
+## Using with Kanban method
+
+The Kanban method is a great way to manage your tasks. It is a visual system for managing work as it moves through a process. Kanban visualizes both the process (the workflow) and the actual work passing through that process. The Kanban board is a visual representation of the flow of work. The board allows you to see the status of work at a glance. The board can be physical or virtual, with virtual boards being the most common.
+
+Example of Kanban board and CheckMateUI tasks:
+
+![Kanban board in ClickUp](images/kanban-board-check-mate-ui.jpg)
+
+Depending on a task management system, you can use different statuses for tasks. For example, in ClickUp, you can use the following statuses:
+
+- Open
+- In Progress
+- Closed
+
+You can also set up regressions for the tasks that require regular checks.
+
 ## 1st priority tasks
 
 These tasks are the most important and should be completed first. They are going to be the foundation of our UI testing strategy.
