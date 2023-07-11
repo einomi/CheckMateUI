@@ -1,6 +1,6 @@
 # CheckMateUI ☑️
 
-Welcome to CheckMateUI, an opinionated list of checklist items for comprehensive UI manual testing. This adaptable framework is tailored to meet your specific needs and works seamlessly with the Kanban method.
+Welcome to CheckMateUI, an opinionated list of checklist items for comprehensive UI manual testing. This adaptable framework is tailored to meet your specific needs and works seamlessly with the [Kanban method](#using-with-kanban-method).
 
 ‼️ **Note.** Items marked with the 🔃 symbol denote areas that require regular regression checks, helping to ensure that your UI stays up-to-date and flawless. Items without the symbol are considered one-time tasks.
 
